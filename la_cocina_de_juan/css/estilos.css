@@ -1,0 +1,139 @@
+
+h1{
+    text-align: center;
+    color: white;
+}
+.hipervinculos{
+    margin: 0px 0px;
+    padding: 5px;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline;
+}
+.hipervinculos:hover{
+    transition: 2.5s;
+    color: rgb(11, 197, 26);
+    background-color: rgb(133, 29, 29);
+}
+
+footer{
+    padding: 2% 0%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.imagen{
+    width: 75%;
+    height: auto;
+    margin: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+/*a:visited {
+    color: rgb(153, 2, 253);
+  }*/
+
+header{
+    background-color: rgba(0, 0, 0);
+    padding: 1% 0% 0%;
+  }
+
+nav{
+    margin: 0rem 1rem 0rem 1rem;
+    border-radius: 10px;
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.425);
+    padding: 1% 0% 0%;
+  }
+
+.parrafo_footer{
+    padding: 2% 0%
+}  
+
+.display{
+    display: flex;
+}
+
+.sucursales_iframes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main_contenedor{
+    background-color: rgba(44, 43, 43, 0.13);
+    width: 50%;
+    margin: 0rem 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    
+}
+.titulo_formularios{
+    color: black;
+}
+
+input{
+    padding: 0.5rem 0rem;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    width: 75%;
+}
+.contenedor_clientes{
+    border: 3px solid red ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contenedor_clientes > img{
+    width:  25%;
+    padding: 1rem;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 765px){
+    .contenedor_clientes{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor_clientes > img{
+        width:  100%;
+        padding: 1rem;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    
+}
+
+.fila1{
+background-color: rgb(163, 157, 157);
+margin-top: 1rem;
+margin-bottom: 1rem;
+border-radius: 15px;
+}
+
+.fila2 img{
+    margin-top: 1rem;
+    object-fit: cover;
+    width: 100%;
+    height: 45rem;
+    margin-bottom: 1rem;
+}
+
+.fila3{
+    background-color: rgb(163, 157, 157);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
